@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pockethandyman">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:name=".Globals"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.Bridge">
+        <activity
+            android:name=".UserProfileActivity"
+            android:screenOrientation="portrait"
+            android:label="User Profile"
+            android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar">
+        </activity>
+        <activity
+            android:name=".LogoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmailPasswordActivity"
+            android:screenOrientation="portrait"
+            android:label="activity_email_password"
+            android:parentActivityName=".LogoActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LogoActivity" />
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_Home_Activity"
+            android:parentActivityName=".LogoActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LogoActivity" />
+        </activity>
+        <activity
+            android:name=".AskQuestionActivity"
+            android:screenOrientation="portrait"
+            android:label="Ask Question"
+            android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ButtonActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AnswerQuestionActivity"
+            android:screenOrientation="portrait"
+            android:label="Answer Question"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ButtonActivity" />
+        </activity>
+        <activity
+            android:name=".AnswerActivity"
+            android:screenOrientation="portrait"
+            android:label="">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".UserSearchActivity"
+            android:screenOrientation="portrait"
+            android:label="">
+            </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

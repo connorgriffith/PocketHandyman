@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PocketHandyman</string>
+    <string name="title_activity_logo">Logo</string>
+    <string name="Home_Appliances">Home \n Appliances</string>
+    <string name="Office_electronics">Office \n Electronics</string>
+    <string name="Automotive">Automotive</string>
+    <string name="Home_repairs" translatable="false">Home Repairs</string>
+    <string name="title_activity_ask_question">AskQuestionActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_ask_question">Ask Question</string>
+    <string name="title_account">Account</string>
+    <string name="title_activity_Home_Activity">HomeActivity</string>
+    <string-array name="rubrik_array">
+        <item>No selection</item>
+        <item>Home Appliances</item>
+        <item>Office Electronics</item>
+        <item>Automotive</item>
+        <item>Home Repairs</item>
+    </string-array>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+</resources>

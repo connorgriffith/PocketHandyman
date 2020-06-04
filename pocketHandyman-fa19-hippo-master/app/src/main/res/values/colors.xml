@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D0A616</color>
+    <color name="colorPrimaryDark">#5E5E5E</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bottomNavBarBackground">#EEEEEE</color>
+    <color name="logoColor">#EFA413</color>
+    <color name="HomeAppliancesColor">#00968C</color>
+    <color name="OfficeElectronicsColor">#6978B9</color>
+    <color name="AutomotiveColor">#D495171E</color>
+    <color name="HomeRepairsColor">#F0CDA007</color>
+    <color name="LightGray">#DCDCDC</color>
+    <color name="White">#FFFFFF</color>
+</resources>
